@@ -1,5 +1,5 @@
 //import java.util.Scanner;
-//Referenced https://stackoverflow.com/questions/4138827/check-string-for-palindrome
+//Referenced https://stackoverflow.com/questions/4138827/check-string-for-palindrome from Michael Myers and dcp
 import java.util.*;
 import java.lang.*;
 public class Palindromechecker
@@ -23,7 +23,7 @@ public class Palindromechecker
         
         boolean checkfalse= true;
 
-        for(point_1 = 0; point_1<point_2; ++point_1, --point_2)
+        for(point_1 = 0; point_1<point_2; ++point_1, --point_2)//Will check at opposite ends of the cahracter array to ensure that the word is spelled the same way backwards and forwards
         {
             if (palindrometest[point_1] != palindrometest[point_2])
             {
